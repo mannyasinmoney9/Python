@@ -1,0 +1,19 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "Welcome.py",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\Users\\DELL GAMING\\AppData\\Local\\Programs\\PortableGit-2.54.0\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
