@@ -43,10 +43,31 @@
 #Write only to sum only the odd numbers
 
 
-total = 0
+#odd = 0
+
+#for i in range(1, 6):
+    #if i % 2 != 0:
+       # odd = odd + i
+
+#print("Sum of odd numbers:", odd)
+
+#take input from the user to sum odd numbers up to a certain limit using the while loop using int and input
+
+#total = 0
+
+#while True:
+    #num = int(input("enter number, 0 to Stop: "))
+    #if num ==0:
+        #break
+    #total += num
+    #print(f"SUm = {total}")
+
+    #Write a python program use range from 1-6 but once it reaches 3 break and then print out the result.
+
+odd = 0
 
 for i in range(1, 6):
-    if i % 2 != 0:
-        total = total + i
+        if i % 2 != 0:
+            odd = odd + i
 
-print("Sum of odd numbers:", total)
+            print("Sum of odd numbers:", odd )
