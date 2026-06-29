@@ -64,10 +64,36 @@
 
     #Write a python program use range from 1-6 but once it reaches 3 break and then print out the result.
 
-odd = 0
+#for row in range(1, 6):
+    #for column in range(1, 6):
+        #print(row * column, end=" ")
+    #print()
 
-for i in range(1, 6):
-        if i % 2 != 0:
-            odd = odd + i
 
-            print("Sum of odd numbers:", odd )
+print("Star triangle")
+rows = 5
+# rows = int(input("Enter number of rows: "))
+
+for row in range(1, rows + 1):
+    for column in range(row):
+        print("*", end=" ")
+    print()
+
+print()
+print("Square")
+size = 5
+# size = int(input("Enter size of square: "))
+
+for row in range(size):
+    for column in range(size):
+        print("*", end=" ")
+    print()
+
+print()
+print("Heart")
+print(" **   ** ")
+print("**** ****")
+print(" ********")
+print("  ******")
+print("   ****")
+print("    **")
